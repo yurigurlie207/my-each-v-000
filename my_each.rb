@@ -1,4 +1,4 @@
-def my_each(collection) 
+def my_each(collection)
   i = 0
   if block_given?
     while i < collection.length
@@ -11,6 +11,6 @@ def my_each(collection)
   end
 end
 
-my_each([1,2,3,4]) do |name|
+my_each() do |name|
   name
 end
