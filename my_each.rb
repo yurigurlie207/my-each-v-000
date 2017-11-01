@@ -11,6 +11,6 @@ def my_each(collection)
   end
 end
 
-my_each() do |name|
+my_each(collection) do |name|
   name
 end
