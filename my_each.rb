@@ -1,5 +1,4 @@
-def my_each(collection) # put argument(s) here
-  # code here
+def my_each(collection)
   i = 0
   if block_given?
     while i < collection.length
@@ -12,6 +11,7 @@ def my_each(collection) # put argument(s) here
   end
 end
 
-my_each([1,2,3,4]) do |name|
+collection = [1,2,3,4]
+my_each(collection) do |name|
   name
 end
